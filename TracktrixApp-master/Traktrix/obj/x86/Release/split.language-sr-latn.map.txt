@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-sr-latn"
+"ResourceDimensions"		"language-sr-latn-rs"
+
+[Files]
+"C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\x86\Release\split.language-sr-latn.pri"			"resources.pri"

@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-lv"
+"ResourceDimensions"		"language-lv"
+
+[Files]
+"C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\ARM\Release\split.language-lv.pri"			"resources.pri"

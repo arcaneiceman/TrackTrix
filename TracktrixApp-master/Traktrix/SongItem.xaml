@@ -1,0 +1,50 @@
+﻿<UserControl
+    x:Class="Traktrix.SongItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Traktrix"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="105"
+    d:DesignWidth="100">
+    
+    <StackPanel x:Name="MainStackPanel" Orientation="Vertical" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <Flyout.AttachedFlyout>
+            <Flyout Placement="Right" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                <StackPanel >
+                    <MenuFlyoutItem FontWeight="Light" Foreground="White" x:Name="PlaySong_Flyout" FontSize="12" Text="Play Song" Click="PlaySong_Flyout_Click"/>
+                    <MenuFlyoutItem FontWeight="Light" Foreground="White" x:Name="EditSong_Flyout" FontSize="12" Text="Edit Song in Trixter mode" Click="EditSong_Flyout_Click"/>
+                    <MenuFlyoutSeparator Foreground="{StaticResource OrangeColor}"  FontWeight="Light"/>
+                    <MenuFlyoutItem FontWeight="Light" Foreground="White" x:Name="SongDetails_Flyout" FontSize="12" Text="View Song Details" Click="SongDetails_Flyout_Click"/>
+                </StackPanel>
+            </Flyout>
+        </Flyout.AttachedFlyout>
+        <StackPanel Visibility="Collapsed" x:Name="AlphabetStackPanel" Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            <TextBlock Foreground="White" Width="100" TextTrimming="CharacterEllipsis" x:Name="Alphabet" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Medium"></TextBlock>
+            <Line Margin="0,0,0,5" X1="0" X2="100" Grid.RowSpan="4" HorizontalAlignment="Right" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+        </StackPanel>
+        <Image x:Name="CoverArt" Source="/Assets/DefaultMusicLogo.jpg" Stretch="UniformToFill" Width="50" Height="50" ></Image>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            <Grid HorizontalAlignment="Left" Margin="0,0,0,0">
+                
+                <StackPanel Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="60" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2606;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2606;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2606;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2606;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2606;" />
+                </StackPanel>
+                <StackPanel x:Name="Rating" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="30" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2605;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2605;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2605;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2605;" />
+                    <TextBlock FontSize="15" Width="12"  Foreground="Gold" Text="&#x2605;" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <TextBlock Foreground="White" Width="100" TextTrimming="CharacterEllipsis" x:Name="SongName" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontSize="16" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Medium"></TextBlock>
+        <TextBlock Width="100" TextTrimming="CharacterEllipsis" x:Name="ArtistName" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontStyle="Italic" FontSize="13" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Thin"></TextBlock>
+    </StackPanel>
+</UserControl>

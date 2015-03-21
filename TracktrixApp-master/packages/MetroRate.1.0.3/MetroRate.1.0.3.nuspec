@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MetroRate</id>
+    <version>1.0.3</version>
+    <title />
+    <authors>Igor Ralic</authors>
+    <owners>Igor Ralic</owners>
+    <licenseUrl>http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <projectUrl>http://metrorate.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MetroRate is a WinRT XAML control for displaying ratings with stars.
+It's a modified version of the open source WPF version released on CodeProject: http://www.codeproject.com/Articles/45210/WPF-A-Simple-Yet-Flexible-Rating-Control</description>
+    <tags>metro winrt rate rating control</tags>
+  </metadata>
+</package>

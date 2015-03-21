@@ -1,0 +1,551 @@
+﻿<Page xmlns:UI="using:Microsoft.Advertising.WinRT.UI" 
+    x:Name="pageRoot"
+    x:Class="Traktrix.TrixterMode"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Traktrix"
+    xmlns:common="using:Traktrix.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xamltoolkit="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="{StaticResource MainBackgroundImage}"></ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition FromHorizontalOffset="2000"/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="{StaticResource BackgroundImage}" Stretch="UniformToFill" Grid.RowSpan="5"></Image>
+        <UI:AdControl Grid.Row="0" Margin="100,0,0,0" x:Name="Advertisement" Grid.ColumnSpan="7" VerticalAlignment="Top" ApplicationId="4b97ae3f-f27f-44f1-a564-73efaefc6af5" 
+                      AdUnitId="166102" Width="428" Height="90"/>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <Button Height="100" Width="80" x:Name="backButton" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+                <TextBlock x:Name="TitleName" FontWeight="ExtraLight" Text="TRIXTER MODE" FontSize="60" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+
+
+            <StackPanel VerticalAlignment="Center" Grid.Column="1" Margin="0,0,0,0" HorizontalAlignment="Right" x:Name="GalleryButton" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <AppBarButton x:ConnectionId='18' Visibility="Visible"                              Opacity="0.7" FontFamily="Segoe UI" Label="Open File" Icon="OpenFile">
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='19' x:Name="FilterAppBarButton" Visibility="Visible"                            Opacity="0.7" FontFamily="Segoe UI" Label="Filter Info" Icon="Filter">
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='20' x:Name="TrixterButton"                           Opacity="0.7" FontFamily="Segoe UI" Label="Play Now"  Grid.RowSpan="2" HorizontalAlignment="Right">
+                    <AppBarButton.Icon>
+                        <BitmapIcon Width="20" Height="20" UriSource="/Assets/Icons/Play_Icon.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton x:ConnectionId='21' x:Name="GalleryAppBarButton" Visibility="Visible"                               Opacity="0.7" FontFamily="Segoe UI" Label="Gallery" Icon="AllApps">
+                </AppBarButton>
+            </StackPanel>
+        </Grid>
+        <Grid ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="270"></RowDefinition>
+                <RowDefinition Height="0.2*"></RowDefinition>
+                <RowDefinition Height="0.4*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.RowSpan="2" Margin="30,0,30,0" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                        <Image VerticalAlignment="Top" x:Name="CoverArt" Source="/Assets/DefaultMusicLogo.jpg" Stretch="UniformToFill" Width="250" Height="250" ></Image>
+                        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,8,0,0" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                            <Line Margin="0,0,10,0" X1="0" X2="250" Grid.RowSpan="4" HorizontalAlignment="Left" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <TextBlock Foreground="White" Width="250" TextTrimming="CharacterEllipsis" x:Name="SongName" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontSize="45" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Medium"></TextBlock>
+                            <StackPanel x:Name="RatingStackPanel" Orientation="Horizontal" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="120" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2606;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2606;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2606;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2606;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2606;" />
+                                    </StackPanel>
+                                    <StackPanel x:Name="Rating" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="60" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2605;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2605;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2605;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2605;" />
+                                        <TextBlock FontSize="30" Width="24" Margin="0,-10,0,0" Foreground="Gold" Text="&#x2605;" />
+                                    </StackPanel>
+                                    <StackPanel x:Name="Rate" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="120" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                        <Button x:ConnectionId='13' x:Name="Star1"                BorderThickness="0" Height="22" FontSize="30" Width="24" Margin="0,-12,0,0" Foreground="Transparent" Content="&#x2605;" Style="{StaticResource ButtonStyle1}" />
+                                        <Button x:ConnectionId='14' x:Name="Star2"                BorderThickness="0" Height="22" FontSize="30" Width="24" Margin="0,-12,0,0" Foreground="Transparent" Content="&#x2605;"  Style="{StaticResource ButtonStyle1}" />
+                                        <Button x:ConnectionId='15' x:Name="Star3"                BorderThickness="0" Height="22" FontSize="30" Width="24" Margin="0,-12,0,0" Foreground="Transparent" Content="&#x2605;" Style="{StaticResource ButtonStyle1}"  />
+                                        <Button x:ConnectionId='16' x:Name="Star4"                BorderThickness="0" Height="22" FontSize="30" Width="24" Margin="0,-12,0,0" Foreground="Transparent" Content="&#x2605;" Style="{StaticResource ButtonStyle1}"  />
+                                        <Button x:ConnectionId='17' x:Name="Star5"                BorderThickness="0" Height="22" FontSize="30" Width="24" Margin="0,-12,0,0" Foreground="Transparent" Content="&#x2605;" Style="{StaticResource ButtonStyle1}"  />
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+                            <TextBlock Width="200" TextTrimming="CharacterEllipsis" x:Name="AlbumName" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontSize="35" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Normal"></TextBlock>
+                            <TextBlock Width="200" TextTrimming="CharacterEllipsis" x:Name="ArtistName" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.8" Text="N/A" FontStyle="Italic" FontSize="35" Margin="0,0,0,0" HorizontalAlignment="Left" FontWeight="Thin"></TextBlock>
+                            <Line Margin="0,0,10,0" X1="0" X2="250" Grid.RowSpan="4" HorizontalAlignment="Left" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <StackPanel HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled" VerticalAlignment="Bottom">
+
+                                <!--<TextBlock Width="200" TextWrapping="NoWrap" x:Name="SongName" TextTrimming="CharacterEllipsis" FontFamily="/Assets/Font/Moire-Light.ttf#Moire" Opacity="0.8" Text=" " FontSize="30" Margin="20,10,0,0" HorizontalAlignment="Center" FontWeight="ExtraLight"></TextBlock>-->
+                                <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                    <StackPanel.ChildrenTransitions>
+                                        <TransitionCollection>
+                                            <EntranceThemeTransition FromHorizontalOffset="2000"/>
+                                        </TransitionCollection>
+                                    </StackPanel.ChildrenTransitions>
+                                    <TextBlock VerticalAlignment="Bottom" x:Name="CurrentTime" Opacity="0.6" Text="00:00" FontSize="40" Margin="0,10,0,10" HorizontalAlignment="Left" FontWeight="ExtraLight" FontFamily="Assets/Font/Prime Light.otf#Prime"/>
+                                    <TextBlock FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.6" Text="/" FontSize="50" Margin="5,10,0,0" HorizontalAlignment="Left" FontWeight="ExtraLight"></TextBlock>
+                                    <TextBlock VerticalAlignment="Bottom" x:Name="TotalTime" FontFamily="Assets/Font/Prime Light.otf#Prime" Opacity="0.6" Text="00:00" FontSize="30" Margin="5,10,0,10" HorizontalAlignment="Left" FontWeight="ExtraLight"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+
+                        </StackPanel>
+
+                        <StackPanel x:Name="FilterStack" Width="220"  Margin="30,-40,0,0" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.Column="2" Grid.Row="2">
+                            <TextBlock FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="SemiBold" Text="Filters" FontSize="30"></TextBlock>
+                            <Line Margin="0,0,0,10" X1="0" X2="250" Grid.RowSpan="4" HorizontalAlignment="Right" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Disabled" HorizontalScrollBarVisibility="Disabled" Height="230">
+                                <ScrollViewer.Background>
+                                    <SolidColorBrush Opacity="0.1" Color="Gray"></SolidColorBrush>
+                                </ScrollViewer.Background>
+                                <GridView x:ConnectionId='11' x:Name="FiltersGrid" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  HorizontalAlignment="Stretch" CanDragItems="False" CanReorderItems="False" SelectionMode="Single"                                             >
+                                    <GridViewItem x:Name="NoFilterGridViewItem" Style="{StaticResource GridViewItemStyle1}" Height="40"  HorizontalAlignment="Left" >
+                                        <StackPanel Margin="0,-8,0,0" VerticalAlignment="Center" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock x:Name="NoFilter" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="No Filter" FontSize="15"></TextBlock>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem HorizontalAlignment="Left"  x:Name="CenterChannelGridViewItem" Style="{StaticResource GridViewItemStyle1}" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  Width="220" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock x:Name="CenterChannel" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Center Channel" FontSize="15"></TextBlock>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem HorizontalAlignment="Left"  x:Name="CenterCutGridViewItem" Style="{StaticResource GridViewItemStyle1}" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  Width="220" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock x:Name="CenterCut" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Center Cut" FontSize="15"></TextBlock>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="BandPassGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="BandPass" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Band Pass" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="BandPassFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="From (Low Cut Off): " FontSize="12"></TextBlock>
+                                                                    <TextBox x:ConnectionId='12' Foreground="White"                           InputScope="Number" x:Name="FromBandPass" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                                <StackPanel Margin="0,5,0,0" VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="To (High Cut Off):" FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number"  x:Name="ToBandPass" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="BandStopGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="BandStop" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Band Stop" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="BandStopFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="From (Low Cut Off): " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" x:Name="FromBandStop" InputScope="Number"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                                <StackPanel Margin="0,5,0,0" VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="To (High Cut Off):" FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number"  x:Name="ToBandStop" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="HighPassGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="HighPass" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="High Pass" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="HighPassFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Cut Off: " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number" x:Name="HighPassCutoff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="HighShelfGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="HighShelf" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="High Shelf" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="HighShelfFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Cut Off: " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number"  x:Name="HighShelfCutoff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                                <StackPanel Margin="0,5,0,0" VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Gain:" FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number"  x:Name="HighShelfGain" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="dB" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="LowPassGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="LowPass" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Low Pass" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="LowPassFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Cut Off: " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White" InputScope="Number"  x:Name="LowPassCutoff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="LowShelfGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="LowShelf" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Low Shelf" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="LowShelfFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Cut Off: " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White"  InputScope="Number" x:Name="LowShelfCutoff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                                <StackPanel Margin="0,5,0,0" VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Gain:" FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White"  InputScope="Number" x:Name="LowShelfGain" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="dB" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+                                    <GridViewItem x:Name="NotchGridViewItem" Style="{StaticResource GridViewItemStyle1}" HorizontalAlignment="Left" Height="40">
+                                        <StackPanel Margin="0,-8,0,0"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                            <TextBlock Width="160" x:Name="Notch" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Notch" FontSize="15"></TextBlock>
+                                            <StackPanel>
+                                                <Button Width="30" x:Name="NotchFilterDropDown"  Height="30" Padding="0" BorderBrush="Transparent" Foreground="White">
+                                                    <Button.Content>
+                                                        <BitmapIcon Margin="-10" Width="35" Height="35" UriSource="/Assets/Icons/DownArrow.png"></BitmapIcon>
+                                                    </Button.Content>
+                                                    <Button.Flyout>
+                                                        <Flyout Placement="Bottom" FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyle1}">
+                                                            <StackPanel VerticalAlignment="Center">
+                                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                                    <TextBlock Width="100" VerticalAlignment="Center" Foreground="White" FlowDirection="LeftToRight" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Cut Off: " FontSize="12"></TextBlock>
+                                                                    <TextBox Foreground="White"  InputScope="Number" x:Name="NotchCutoff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="2,0,0,0" Background="Transparent" BorderThickness="1" BorderBrush="White"></TextBox>
+                                                                    <TextBlock VerticalAlignment="Center" Margin="2,0,0,0" Foreground="White" FlowDirection="LeftToRight"  HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Hz" FontSize="12"></TextBlock>
+                                                                </StackPanel>
+                                                            </StackPanel>
+                                                        </Flyout>
+                                                    </Button.Flyout>
+                                                </Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </GridViewItem>
+
+                                </GridView>
+                            </ScrollViewer>
+                        </StackPanel>
+
+                        <StackPanel x:Name="LyricsStack" Width="400"  Margin="30,-40,0,0" HorizontalAlignment="Left" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.Column="2" Grid.Row="2">
+                            <TextBlock FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="SemiBold" Text="Lyrics" FontSize="30"></TextBlock>
+                            <Line Margin="0,0,0,10" X1="0" X2="400" Grid.RowSpan="4" HorizontalAlignment="Right" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <Grid>
+                                <ProgressRing VerticalAlignment="Top" Margin="0,50,0,0" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="2" x:Name="LyricsProgress" Foreground="{StaticResource OrangeColor}" Height="50" Width="50" IsActive="True"></ProgressRing>
+                                <ScrollViewer Height="230" Style="{StaticResource ScrollViewerStyle1}">
+                                    <ScrollViewer.Background>
+                                        <SolidColorBrush Color="Gray" Opacity="0.1"></SolidColorBrush>
+                                    </ScrollViewer.Background>
+                                    <TextBlock x:Name="LyricsPane" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="--- No Lyrics available ---" FontSize="15"></TextBlock>
+                                </ScrollViewer>
+                            </Grid>
+                        </StackPanel>
+                        <AppBarButton x:ConnectionId='10' x:Name="RefreshLyricsButton" Visibility="Visible"                              Opacity="0.7" FontFamily="Segoe UI" Label="Refresh Lyrics" Icon="Refresh">
+                        </AppBarButton>
+
+
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+            <Grid Grid.Row="1" Margin="0,10,0,0">
+                <StackPanel VerticalAlignment="Top" Margin="30,0,0,0" Orientation="Horizontal">
+                    <TextBlock x:Name="KaroakeTextBlock" Margin="266,0,0,0" FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Bold" Text="Karoake" FontSize="12"></TextBlock>
+                    <TextBlock x:Name="VolumeTextBlock" Margin="170,0,0,0" FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Bold" Text="Volume" FontSize="12"></TextBlock>
+                    <TextBlock x:Name="GuitarTunerTextBlock" Margin="380,0,0,0" FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Bold" Text="Tuner" FontSize="12"></TextBlock>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,3,40,0" Orientation="Horizontal">
+                    <StackPanel>
+                        <xamltoolkit:ImageButton x:ConnectionId='9' x:Name="StopButton" Margin="0,0,0,0" VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/Stop_Normal.png"
+                PressedStateImageSource="/Assets/Icons/Stop_Normal.png"
+                RecyclePressedStateImageForHover="True"
+                HoverStateImageUriSource="{Binding Source={StaticResource StopIconHover}, Path=UriSource}"
+                Stretch="UniformToFill"
+                Width="70"
+                Height="70"
+                Opacity="0.3"
+                GenerateMissingImages="True"
+                                        
+                IsEnabled="False"/>
+                        <TextBlock Text="Stop" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Margin="20,0,0,0">
+                        <xamltoolkit:ImageButton x:ConnectionId='8' x:Name="PlayButton" VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/PlayIcon_Normal.png"
+                PressedStateImageSource="/Assets/Icons/PlayIcon_Normal.png"
+                HoverStateImageUriSource="{Binding Source={StaticResource PlayTrixterIconNormal}, Path=UriSource}"
+                GenerateMissingImages="True"
+                RecyclePressedStateImageForHover="True"
+                Stretch="UniformToFill"
+                Width="70"
+                Height="70"
+                Opacity="0.7"
+                                          />
+                        <TextBlock Text="Play" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <AppBarSeparator Margin="-15,0,-15,0" HorizontalAlignment="Left" FontSize="30" VerticalAlignment="Center"></AppBarSeparator>
+                    <StackPanel Margin="0,0,0,0">
+                        <xamltoolkit:ImageToggleButton x:ConnectionId='7' x:Name="RecordButton" VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/Record_Normal.png"
+                PressedStateImageSource="/Assets/Icons/Record_Normal.png"
+                DisabledStateImageSource="/Assets/Icons/Record_Normal.png"
+                RecyclePressedStateImageForHover="True"
+                HoverStateImageUriSource="{Binding Source={StaticResource RecordIconNormal}, Path=UriSource}"
+                CheckedStateImageUriSource="/Assets/Icons/Record_Enabled.png"
+                Stretch="UniformToFill"
+                Width="70"
+                Height="70"
+                Opacity="0.3"
+                GenerateMissingImages="False"
+                                          
+                IsEnabled="False"
+                />
+                        <TextBlock Text="Record" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                  
+                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Bottom">
+                        <xamltoolkit:ImageButton x:ConnectionId='6' Margin="0,0,0,20" x:Name="RenderButton" VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/DJ_Icon.png"
+                HoverStateImageUriSource="{Binding Source={StaticResource RenderIconNormal}, Path=UriSource}"
+                GenerateMissingImages="True"
+                RecyclePressedStateImageForHover="True"
+                Stretch="UniformToFill"
+                Width="30"
+                Height="30"
+                Opacity="0.3"
+                GeneratedDisabledStateGrayscaleAmount="0.4"
+                                            
+                IsEnabled="false"/>
+                        <TextBlock VerticalAlignment="Bottom" Text="Render" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,0">
+                        <xamltoolkit:ImageToggleButton x:ConnectionId='5' x:Name="SaveButton" VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/save.png"
+                HoverStateImageUriSource="{Binding Source={StaticResource SaveIconNormal}, Path=UriSource}"
+                GeneratedDisabledStateGrayscaleAmount="0.4"
+                RecyclePressedStateImageForHover="True"
+                Stretch="UniformToFill"
+                Width="70"
+                Height="70"
+                Opacity="0.3"
+                GenerateMissingImages="True"
+                                        
+                IsEnabled="False"/>
+                        <TextBlock Text="Save" HorizontalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <AppBarSeparator Margin="-15,0,-15,0" HorizontalAlignment="Left" FontSize="30" VerticalAlignment="Center"></AppBarSeparator>
+                    <StackPanel x:Name="ExtraButtonPane" Orientation="Horizontal">
+                        <xamltoolkit:ImageButton x:ConnectionId='1' Margin="50,0,0,0" x:Name="VolumeButton" VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/Volume3_Normal.png"
+                PressedStateImageSource="/Assets/Icons/Volume3_Normal.png"
+                HoverStateImageUriSource="{Binding Source={StaticResource Volume3IconHover}, Path=UriSource}"
+                RecyclePressedStateImageForHover="True"
+                Stretch="UniformToFill"
+                Width="70"
+                Height="70"
+                Opacity="0.7"
+                GenerateMissingImages="False"
+                                          />
+                        <Slider x:ConnectionId='2' Minimum="0" Maximum="100"                                          IsThumbToolTipEnabled="False" Margin="10,8,0,0" VerticalAlignment="Center" x:Name="VolumeSlider" Width="100" Style="{StaticResource SliderStyle2}"></Slider>
+                        <AppBarSeparator Margin="30,0,-15,0" HorizontalAlignment="Left" FontSize="30" VerticalAlignment="Center"></AppBarSeparator>
+                        <Slider IsTapEnabled="False" IsHitTestVisible="False" Minimum="200" TickPlacement="Inline" TickFrequency="20" Maximum="600" IsThumbToolTipEnabled="False" Margin="80,8,0,0" VerticalAlignment="Center" x:Name="TunerSlider" Width="150" Style="{StaticResource SliderStyle2}"></Slider>
+                        <TextBlock Margin="20,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="{Binding ElementName=TunerSlider,Path=Value}"></Run>
+                        <Run Text=" Hz"></Run>
+                        <LineBreak></LineBreak>
+                        <LineBreak></LineBreak>
+                        <Run Text="Closest note at: "></Run>
+                        <Run Text="-" x:Name="NoteValue"></Run>
+                        <Run Text=" Hz"></Run>
+                        <LineBreak></LineBreak>
+                        <Run Text="is "></Run>
+                        <Run x:Name="NoteAlphabet" Text="-"></Run>
+                        </TextBlock>
+                        <StackPanel VerticalAlignment="Bottom" Margin="10,0,0,0">
+                            <xamltoolkit:ImageButton x:ConnectionId='4' x:Name="ListenButton" VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/Listen.png"
+                PressedStateImageSource="/Assets/Icons/Listen.png"
+                RecyclePressedStateImageForHover="True"
+                HoverStateImageUriSource="{Binding Source={StaticResource ListenIcon}, Path=UriSource}"
+                Stretch="UniformToFill"
+                Width="50"
+                Height="50"
+                Opacity="0.7"
+                GenerateMissingImages="True"
+                                          
+                IsEnabled="True"/>
+                            <TextBlock Margin="0,10,0,0" VerticalAlignment="Bottom" Text="Listen" HorizontalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Bottom" >
+                            <xamltoolkit:ImageButton x:ConnectionId='3' VerticalAlignment="Bottom"  x:Name="NotListenButton" Margin="0,0,0,0" 
+                HorizontalAlignment="Center"
+                NormalStateImageSource="/Assets/Icons/NotListen.png"
+                PressedStateImageSource="/Assets/Icons/NotListen.png"
+                RecyclePressedStateImageForHover="True"
+                HoverStateImageUriSource="{Binding Source={StaticResource NotListenIcon}, Path=UriSource}"
+                Stretch="UniformToFill"
+                Width="50"
+                Height="50"
+                Opacity="0.3"
+                GenerateMissingImages="True"
+                                             
+                IsEnabled="False"/>
+                            <TextBlock Margin="0,10,0,0"  Text="Stop Listening" HorizontalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                    </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Grid x:Name="OriginalSongPane" Width="600" Margin="0,0,0,0" HorizontalAlignment="Left">
+                        <StackPanel ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                            <TextBlock FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="SemiBold" Text="Original Song" FontSize="30"></TextBlock>
+                            <Line Margin="0,0,0,10" X1="0" X2="600" Grid.RowSpan="4" HorizontalAlignment="Right" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <Grid Height="150">
+                                <Grid.Background>
+                                    <SolidColorBrush Opacity="0.1" Color="Gray"></SolidColorBrush>
+                                </Grid.Background>
+                                <Line x:Name="SeekOriginal" Y1="0" Y2="150" HorizontalAlignment="Left" VerticalAlignment="Center" Stroke="Teal" StrokeThickness="3" Opacity="1"></Line>
+                                <Line X1="0" X2="600" HorizontalAlignment="Right" VerticalAlignment="Center" Stroke="WhiteSmoke" StrokeThickness="1" Opacity="1"></Line>
+                                <Polyline x:Name="OriginalSong" HorizontalAlignment="Left" Margin="0,0,0,0" Height="150" Width="600" Stroke="DarkGray" StrokeThickness="1" />
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                    <Grid x:Name="EditedSongPane" Width="600" Margin="60,0,30,0" HorizontalAlignment="Right">
+                        <StackPanel ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                            <TextBlock FontFamily="Assets/Font/Moire-Light.ttf#Moire" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="SemiBold" Text="Recorded Song" FontSize="30"></TextBlock>
+                            <Line Margin="0,0,0,10" X1="0" X2="600" Grid.RowSpan="4" HorizontalAlignment="Right" Stroke="{StaticResource OrangeColor}" StrokeThickness="2" Opacity="0.8"></Line>
+                            <Grid Height="150">
+                                <Grid.Background>
+                                    <SolidColorBrush Opacity="0.1" Color="Gray"></SolidColorBrush>
+                                </Grid.Background>
+                                <Line x:Name="SeekEdited" Y1="0" Y2="150" HorizontalAlignment="Left" VerticalAlignment="Center" Stroke="Teal" StrokeThickness="3" Opacity="1"></Line>
+                                <Line X1="0" X2="600" HorizontalAlignment="Right" VerticalAlignment="Center" Stroke="WhiteSmoke" StrokeThickness="1" Opacity="1"></Line>
+                                <Polyline x:Name="EditedSong" HorizontalAlignment="Left" Margin="0,0,0,0" Height="150" Width="600" Stroke="DarkGray" StrokeThickness="1" />
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="ProgressGrid" Visibility="Collapsed" Grid.RowSpan="5" Background="Transparent">
+            <StackPanel Margin="0,300,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <ProgressRing Foreground="{StaticResource OrangeColor}" Height="100" Width="100" IsActive="True"></ProgressRing>
+                <TextBlock Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Rendering Song ..." FontSize="30"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ky-cyrl"
+"ResourceDimensions"		"language-ky-kg"
+
+[Files]
+"C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\ARM\Release\split.language-ky-cyrl.pri"			"resources.pri"

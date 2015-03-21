@@ -1,0 +1,882 @@
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\App.xbf
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\MainPage.xbf
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\Traktrix.exe
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\Traktrix.pdb
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\resources.pri
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\AppxManifest.xml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\App.g.i.cs
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\App.g.cs
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\MainPage.g.i.cs
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\MainPage.g.cs
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\App.xaml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\App.xbf
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\XamlSaveStateFile.xml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\MainPage.xaml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\MainPage.xbf
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\Traktrix.exe
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\Traktrix.pdb
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\priconfig.xml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\priconfig.xml.intermediate
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\layout.resfiles
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\layout.resfiles.intermediate
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\resources.resfiles
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\resources.resfiles.intermediate
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\pri.resfiles
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\pri.resfiles.intermediate
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\qualifiers.txt
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\qualifiers.txt.intermediate
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\ProjectArchitectures.txt
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\SharpDX.dll
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\SharpDX.xml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\SharpDX.pri
+c:\users\usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\NAudio.Win8.dll
+C:\Users\Usmani\documents\visual studio 2013\Projects\Traktrix\Traktrix\bin\Debug\NAudio.Win8.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\App.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Help.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\resources.pri
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MetroRate.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\XAMLMetroAppIsolatedStorageHelper.dll
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MetroRate.pri
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MetroRate.pri.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Jasim\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\App.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Help.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\resources.pri
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\XAMLMetroAppIsolatedStorageHelper.dll
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Usmani\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\App.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Help.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\resources.pri
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\XAMLMetroAppIsolatedStorageHelper.dll
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\NAudio.Win8.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Help.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\App.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Mutahir\Documents\GitHub\Tracktrix\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\App.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\FilterHelp.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Help.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\resources.pri
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\CSWindowsStoreAppSaveCollection.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Mutahir\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\App.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\FilterHelp.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Help.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\resources.pri
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\CSWindowsStoreAppSaveCollection.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\App.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Help.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Usmani\Documents\GitHub\TracktrixApp\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\App.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\FilterHelp.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Help.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\resources.pri
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\CSWindowsStoreAppSaveCollection.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\App.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\FilterHelp.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\App.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Help.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\App.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\FilterHelp.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Help.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\App.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\FilterHelp.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Help.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.xr.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\resources.pri
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\CSWindowsStoreAppSaveCollection.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\App.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\App.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Help.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\App.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Help.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Wali\Desktop\DevPlatform\VSWorkSpace\TracktrixApp-master\Traktrix\obj\Debug\ProjectArchitectures.txt
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\App.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\AboutUs.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\ExtendedSplash.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\FilterHelp.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\MainPage.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Help.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\MusicGallery.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\PlayingPage.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SongDetails.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SongItem.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\PrivacyPolicy.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\ThemeChanger.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\TrixterMode.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.xr.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.exe
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.pdb
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\resources.pri
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\AppxManifest.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Traktrix.build.appxrecipe
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\CSWindowsStoreAppSaveCollection.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\Mp3ToWav.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\WinRtUtility.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.csprojResolveAssemblyReference.cache
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\App.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\App.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MainPage.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MainPage.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Help.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Help.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongItem.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongItem.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.g.i.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\App.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MainPage.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Help.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongItem.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.xaml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\App.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\AboutUs.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ExtendedSplash.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\FilterHelp.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MainPage.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Help.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MusicGallery.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PlayingPage.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongDetails.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SongItem.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\PrivacyPolicy.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ThemeChanger.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\TrixterMode.xbf
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.exe
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.pdb
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\Traktrix.csproj.GenerateResource.Cache
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX.pri
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\priconfig.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\priconfig.xml.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\layout.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\layout.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\resources.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\resources.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\pri.resfiles
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\pri.resfiles.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\qualifiers.txt
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\WinRTXamlToolkit.pri.xml
+C:\Users\Wali\Desktop\Current Projects\Windows 8.1 Apps\TracktrixApp-master\Traktrix\obj\Debug\ProjectArchitectures.txt

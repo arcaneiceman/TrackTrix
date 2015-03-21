@@ -1,0 +1,80 @@
+﻿<SettingsFlyout
+    x:Class="Traktrix.AboutUs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Traktrix"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="ABOUT US" 
+    HeaderForeground="White" 
+    HeaderBackground="{StaticResource OrangeColor}"
+    FontFamily="/Assets/Font/Moire-Light.ttf#Moire"
+    Opacity="1"
+    Background="#222222"
+    d:DesignWidth ="346"
+    >
+
+    <StackPanel x:Name="content1" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <StackPanel.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+            </TransitionCollection>
+        </StackPanel.ChildrenTransitions>
+
+        <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Hidden" Height="550">
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+            <TextBlock Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Tracktrix is a solution that provides users the capability of playing and singing popular songs while filtering vocals and mix them up using fancy filters and effects. In addition, the solution serves as a normal music player for its users as well." FontSize="13"></TextBlock>
+            
+            <TextBlock HorizontalAlignment="Left" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="SemiBold" Text="Whats new: " FontSize="18"></TextBlock>
+            <TextBlock Foreground="White"  Margin="16,0,0,10" FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="v 1.0.0"></TextBlock>
+            <RichTextBlock Foreground="White" Margin="20,0,20,10" FontWeight="Thin" TextWrapping="Wrap">
+                <Paragraph LineHeight="15">
+                    &#x27A4; Added Music Library mode.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Added Be a Trixter mode.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Added Play Now mode.</Paragraph>
+            </RichTextBlock>
+
+        </StackPanel>
+
+        <Grid Margin="16,2,16,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--<Grid Grid.Column="0">
+                <TextBlock Tapped="Follow_Tapped"  FontWeight="Light" Foreground="{StaticResource OrangeColor}" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                        <Underline>
+                      <Run Text="Follow Us"/>
+                    </Underline>
+
+                </TextBlock>
+            </Grid>-->
+            <!--<Grid Tapped="TextBlock_Tapped" Grid.Column="1" Grid.Row="0">
+                <TextBlock Foreground="{StaticResource OrangeColor}" FontWeight="Light" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                        <Underline>
+                      <Run Text="Email Developer"/>
+                    </Underline>
+
+                </TextBlock>
+            </Grid>-->
+
+        </Grid>
+
+        <TextBlock></TextBlock>
+        <TextBlock Foreground="White" Grid.Column="0" FontWeight="Light" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Text="All rights reserved © 2014 Mobious Labs"></TextBlock>
+
+    </StackPanel>
+
+</SettingsFlyout>
+

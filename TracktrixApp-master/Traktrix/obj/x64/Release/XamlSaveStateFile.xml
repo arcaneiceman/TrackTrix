@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\mutahir\documents\github\tracktrixapp\traktrix\obj\x64\release\intermediatexaml\traktrix.exe" HashGuid="5a8e680b-5cd9-ae06-6a76-f63d62e59f52" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\msadvertisingxaml\8.1\references\commonconfiguration\neutral\microsoft.advertising.winrt.ui.winmd" HashGuid="6588494d-37e3-4bf8-bf82-6a4bc10c0818" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\msadvertisingxaml\8.1\references\commonconfiguration\neutral\microsoftadvertising.winmd" HashGuid="0dde57b7-8c99-5b9a-0771-4cdcca925c59" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\traktrix\dll files\cswindowsstoreappsavecollection.dll" HashGuid="4c260301-22ca-8010-18ed-a43a0e34c216" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\traktrix\dll files\mp3towav.dll" HashGuid="36212809-660e-aea6-97be-170811033849" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\packages\sharpdx.2.5.0\lib\win8\sharpdx.dll" HashGuid="18b4ed4a-7a92-01eb-60df-8b2eefc2fe49" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\packages\sharpdx.xaudio2.2.5.0\lib\win8\sharpdx.xaudio2.dll" HashGuid="6fb56f1d-a676-af4e-4b6e-c205abc1eae8" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\packages\objectstoragehelper.5.0.0\lib\netcore45\winrtutility.dll" HashGuid="1124cbd5-8968-d04d-ec32-ed58d22f4c6a" />
+    <ReferenceAssembly PathName="c:\users\mutahir\desktop\tracktrixapp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\winrtxamltoolkit.dll" HashGuid="5e9cdb98-d894-297f-abde-39796d45dfee" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

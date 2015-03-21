@@ -1,0 +1,68 @@
+﻿<SettingsFlyout
+    x:Class="Traktrix.FilterHelp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Traktrix"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="HELP" 
+    HeaderForeground="White" 
+    HeaderBackground="{StaticResource OrangeColor}"
+    FontFamily="/Assets/Font/Moire-Light.ttf#Moire"
+    Opacity="1"
+    Background="#222222"
+    d:DesignWidth ="346">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel x:Name="content1" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <StackPanel.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+            </TransitionCollection>
+        </StackPanel.ChildrenTransitions>
+        <StackPanel ScrollViewer.VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Band Stop"></TextBlock>
+            <TextBlock Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Band-stop filter or band-rejection filter is a filter that passes most frequencies unaltered, but attenuates those in a specific range to very low levels. It is the opposite of a band-pass filter." FontSize="13"></TextBlock>
+           
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Band Pass"></TextBlock>
+            <TextBlock Width="250" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Center Channel / Center Cut (Lyrics Removal)" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Removes center-panned content in stereo tracks by inverting and making mono. Can be used to mitigate vocals in music tracks if the vocals are panned to centre. Optionally you can choose a band of frequencies to invert, rather than the whole channel. This may be less destructive of the content panned away from centre. The resulting audio retains two channels, but sounds mono because both channels are panned to centre." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="High Pass" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="A high-pass filter (HPF) is an electronic filter that passes high-frequency signals but attenuates (reduces the amplitude of) signals with frequencies lower than the cutoff frequency. The actual amount of attenuation for each frequency varies from filter to filter." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="High Shelf" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="A high shelf filter will cut or boost signals of frequencies ABOVE (fc). Below the cutoff frequency, the input signal is unaffected. This operates opposite to a low shelf filter." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Low Pass" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="A low-pass filter is a filter that passes low-frequency signals and attenuates (reduces the amplitude of) signals with frequencies higher than the cutoff frequency. The actual amount of attenuation for each frequency varies depending on specific filter design." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Low Shelf" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="A low shelf filter will cut or boost signals of frequencies BELOW (fc) or cutoff frequency. Above fc, the frequency response will not be altered and will pass normally." FontSize="13"></TextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Notch" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Notch Filter sharply attenuates frequency-specific noise like mains hum or electrical whistle with minimal damage to the remaining audio, by cutting a [notch] out of the frequency spectrum at that point." FontSize="13"></TextBlock>
+
+        </StackPanel>
+        <TextBlock Margin="0,10,0,0" Foreground="White" Grid.Column="0" FontWeight="Light" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Text="All rights reserved © 2014 Mobious Studios"></TextBlock>
+
+
+    </StackPanel>
+</SettingsFlyout>
+

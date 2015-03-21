@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-mn-cyrl"
+"ResourceDimensions"		"language-mn-mn"
+
+[Files]
+"C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\obj\x64\Release\split.language-mn-cyrl.pri"			"resources.pri"

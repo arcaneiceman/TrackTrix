@@ -1,0 +1,65 @@
+﻿<SettingsFlyout
+    x:Class="Traktrix.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Traktrix"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="HELP" 
+    HeaderForeground="White" 
+    HeaderBackground="{StaticResource OrangeColor}"
+    FontFamily="/Assets/Font/Moire-Light.ttf#Moire"
+    Opacity="1"
+    Background="#222222"
+    d:DesignWidth ="346">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel x:Name="content1" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <StackPanel.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+            </TransitionCollection>
+        </StackPanel.ChildrenTransitions>
+        <StackPanel ScrollViewer.VerticalScrollBarVisibility="Hidden" Height="600" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition FromHorizontalOffset="2000"></EntranceThemeTransition>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Music Library Location"></TextBlock>
+            <TextBlock Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Tracktrix can only play music that is either located in the default music library location or a removable storage. You can change your default location of the music library without any hassle using the following method:" FontSize="13"></TextBlock>
+
+            <RichTextBlock Foreground="White" Margin="20,0,20,10" FontWeight="Thin" TextWrapping="Wrap">
+                <Paragraph LineHeight="15">
+                    &#x27A4; Go to the default 'My Music' folder location. [E.g. C:\Users\Username]</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Right click and view the properties of 'My Music' folder.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Click on Location.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Click on Move Location.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Select the respective folder / drive where your songs are located.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; Click on Apply.</Paragraph>
+                <Paragraph LineHeight="15">
+                    &#x27A4; A dialogue box will appear asking to move files. Select 'NO' and continue.</Paragraph>
+            </RichTextBlock>
+
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Lyrics"></TextBlock>
+            <TextBlock Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Tracktrix uses AZlyrics.com and lyricsmode.com to fetch lyrics of the particular song that is being played. Please note that fetching is not done at a 100% accuracy so you may get wrong lyrics or may not be able to see lyrics for a song that you are listening to." FontSize="13"></TextBlock>
+            
+            <TextBlock></TextBlock>
+            <TextBlock Foreground="White"  FontFamily="/Assets/Font/Moire-Light.ttf#Moire" FontStyle="Normal" FontSize="18" Text="Microphone"></TextBlock>
+            <TextBlock Width="255" Foreground="White" FlowDirection="LeftToRight" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left" Margin="5" TextWrapping="WrapWholeWords" TextLineBounds="Full" FontWeight="Light" Text="Please enable Microphone in Tracktrix through permissions and in Windows through global settings so that trixter mode can work perfectly." FontSize="13"></TextBlock>
+
+        </StackPanel>
+        <TextBlock Foreground="White" Grid.Column="0" FontWeight="Light" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Text="All rights reserved © 2014 Mobious Labs"></TextBlock>
+
+
+    </StackPanel>
+</SettingsFlyout>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ObjectStorageHelper</id>
+    <version>5.0.0</version>
+    <title>Generic ObjectStorageHelper for WinRT</title>
+    <authors>Jamie Thomson</authors>
+    <owners>Jamie Thomson</owners>
+    <projectUrl>http://winrtstoragehelper.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ObjectStorageHelper&lt;T&gt; is a Generic class that simplifies storage of data in WinRT applications while still maintaining the Async principles of Windows 8 apps</description>
+    <summary>ObjectStorageHelper&lt;T&gt; is a Generic class that simplifies storage of data in WinRT applications while still maintaining the Async principles of Windows 8 apps</summary>
+    <copyright>2012 Jamie Thomson</copyright>
+    <tags>winrt win8 storage</tags>
+  </metadata>
+</package>

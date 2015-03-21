@@ -1,0 +1,947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MUTAHIR-PC</Machine>
+    <WindowsUser>Mutahir</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>26996MobiousStudios.Tracktrix</PackageIdentityName>
+    <RegisteredManifestChecksum>25A5ACAAF612BBC6B276763A9A55D335ACF5BE91AAFBABA2EBC18B5D3EB814FB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>26996MobiousStudios.Tracktrix_1.1.0.4_neutral__va8w8h2dek7hj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>26996MobiousStudios.Tracktrix_va8w8h2dek7hj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>26996MobiousStudios.Tracktrix</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=5D0F90DB-FCD4-4297-9E09-9B5DA598B523</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.4</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-16T11:55:28.987</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\Traktrix.exe">
+      <PackagePath>Traktrix.exe</PackagePath>
+      <Modified>2014-03-16T16:04:40.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-09-13T06:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-09-13T06:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\DLL Files\CSWindowsStoreAppSaveCollection.dll">
+      <PackagePath>CSWindowsStoreAppSaveCollection.dll</PackagePath>
+      <Modified>2014-03-15T10:43:07.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\DLL Files\Mp3ToWav.dll">
+      <PackagePath>Mp3ToWav.dll</PackagePath>
+      <Modified>2014-03-15T10:43:07.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\SharpDX.2.5.0\lib\win8\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2014-03-15T10:43:10.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\SharpDX.XAudio2.2.5.0\lib\win8\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2014-03-15T10:43:10.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\ObjectStorageHelper.5.0.0\lib\netcore45\WinRtUtility.dll">
+      <PackagePath>WinRtUtility.dll</PackagePath>
+      <Modified>2014-03-15T10:43:10.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2014-03-15T10:43:10.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+      <Modified>2013-09-13T06:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
+      <Modified>2013-09-13T06:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-09-13T06:43:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-09-13T06:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Blue.png">
+      <PackagePath>Assets\Background_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Empty.png">
+      <PackagePath>Assets\Background_Empty.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Gray.png">
+      <PackagePath>Assets\Background_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Green.png">
+      <PackagePath>Assets\Background_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Orange.png">
+      <PackagePath>Assets\Background_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Red.png">
+      <PackagePath>Assets\Background_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Background_Yellow.png">
+      <PackagePath>Assets\Background_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Blue.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Gray.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Green.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Orange.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Red.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon_Yellow.png">
+      <PackagePath>Assets\Icons\DJ_Icon_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DownArrow.png">
+      <PackagePath>Assets\Icons\DownArrow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Green.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Red.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Forward_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Forward_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen.png">
+      <PackagePath>Assets\Icons\Listen.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Blue.png">
+      <PackagePath>Assets\Icons\Listen_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Gray.png">
+      <PackagePath>Assets\Icons\Listen_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Green.png">
+      <PackagePath>Assets\Icons\Listen_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Orange.png">
+      <PackagePath>Assets\Icons\Listen_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Red.png">
+      <PackagePath>Assets\Icons\Listen_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Listen_Yellow.png">
+      <PackagePath>Assets\Icons\Listen_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal.png">
+      <PackagePath>Assets\Icons\Mute_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Green.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Red.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Mute_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Mute_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen.png">
+      <PackagePath>Assets\Icons\NotListen.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Blue.png">
+      <PackagePath>Assets\Icons\NotListen_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Gray.png">
+      <PackagePath>Assets\Icons\NotListen_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Green.png">
+      <PackagePath>Assets\Icons\NotListen_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Orange.png">
+      <PackagePath>Assets\Icons\NotListen_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Red.png">
+      <PackagePath>Assets\Icons\NotListen_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\NotListen_Yellow.png">
+      <PackagePath>Assets\Icons\NotListen_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal_Blue.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal_Green.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal_Orange.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal_Red.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PauseIcon_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\PauseIcon_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Green.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Red.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Pause_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Blue.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Gray.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Green.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Orange.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Red.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Pause_Pressed_Yellow.png">
+      <PackagePath>Assets\Icons\Pause_Pressed_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Blue.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Gray.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Green.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Orange.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Red.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\PlayIcon_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\PlayIcon_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Icon.png">
+      <PackagePath>Assets\Icons\Play_Icon.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Play_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Play_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Green.png">
+      <PackagePath>Assets\Icons\Play_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Play_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Red.png">
+      <PackagePath>Assets\Icons\Play_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Play_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Blue.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Gray.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Green.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Orange.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Red.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Play_Pressed_Yellow.png">
+      <PackagePath>Assets\Icons\Play_Pressed_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Enabled.png">
+      <PackagePath>Assets\Icons\Record_Enabled.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal.png">
+      <PackagePath>Assets\Icons\Record_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Record_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Record_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Green.png">
+      <PackagePath>Assets\Icons\Record_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Record_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Red.png">
+      <PackagePath>Assets\Icons\Record_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Record_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Record_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal.png">
+      <PackagePath>Assets\Icons\Repeat_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Green.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Red.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Repeat_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Repeat_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Green.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Red.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Rewind_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Rewind_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save.png">
+      <PackagePath>Assets\Icons\save.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Blue.png">
+      <PackagePath>Assets\Icons\save_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Gray.png">
+      <PackagePath>Assets\Icons\save_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Green.png">
+      <PackagePath>Assets\Icons\save_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Orange.png">
+      <PackagePath>Assets\Icons\save_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Red.png">
+      <PackagePath>Assets\Icons\save_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\save_Yellow.png">
+      <PackagePath>Assets\Icons\save_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Green.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Red.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Shuffle_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Shuffle_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal.png">
+      <PackagePath>Assets\Icons\Stop_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Green.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Red.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Stop_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Stop_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal.png">
+      <PackagePath>Assets\Icons\Volume0_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Green.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Red.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume0_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Volume0_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal.png">
+      <PackagePath>Assets\Icons\Volume1_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Green.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Red.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume1_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Volume1_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal.png">
+      <PackagePath>Assets\Icons\Volume2_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Green.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Red.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume2_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Volume2_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal.png">
+      <PackagePath>Assets\Icons\Volume3_Normal.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Blue.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Blue.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Gray.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Gray.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Green.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Green.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Orange.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Orange.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Red.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Red.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Volume3_Normal_Yellow.png">
+      <PackagePath>Assets\Icons\Volume3_Normal_Yellow.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\DJ_Icon.png">
+      <PackagePath>Assets\Icons\DJ_Icon.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-15T10:43:07.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Icons\Music_Icon.png">
+      <PackagePath>Assets\Icons\Music_Icon.png</PackagePath>
+      <Modified>2014-03-15T10:43:07.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-15T10:43:07.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-15T10:43:07.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-15T10:43:07.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Font\luxisr.ttf">
+      <PackagePath>Assets\Font\luxisr.ttf</PackagePath>
+      <Modified>2014-03-15T10:43:07.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Font\Moire-Light.ttf">
+      <PackagePath>Assets\Font\Moire-Light.ttf</PackagePath>
+      <Modified>2014-03-15T10:43:07.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\DefaultMusicLogo.jpg">
+      <PackagePath>Assets\DefaultMusicLogo.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Blue.jpg">
+      <PackagePath>Assets\Logo_Blue.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Gray.jpg">
+      <PackagePath>Assets\Logo_Gray.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Green.jpg">
+      <PackagePath>Assets\Logo_Green.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Orange.jpg">
+      <PackagePath>Assets\Logo_Orange.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Red.jpg">
+      <PackagePath>Assets\Logo_Red.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Logo_Yellow.jpg">
+      <PackagePath>Assets\Logo_Yellow.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Eight.jpg">
+      <PackagePath>Assets\Wallpapers\Eight.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Five.jpg">
+      <PackagePath>Assets\Wallpapers\Five.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Four.jpg">
+      <PackagePath>Assets\Wallpapers\Four.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Nine.jpg">
+      <PackagePath>Assets\Wallpapers\Nine.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\One.jpg">
+      <PackagePath>Assets\Wallpapers\One.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Seven.jpg">
+      <PackagePath>Assets\Wallpapers\Seven.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Six.jpg">
+      <PackagePath>Assets\Wallpapers\Six.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Three.jpg">
+      <PackagePath>Assets\Wallpapers\Three.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Wallpapers\Two.jpg">
+      <PackagePath>Assets\Wallpapers\Two.jpg</PackagePath>
+      <Modified>2014-03-15T10:43:07.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Audio\Common\ReadMe.txt">
+      <PackagePath>Audio\Common\ReadMe.txt</PackagePath>
+      <Modified>2014-03-15T10:43:07.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\DLL Files\CSWindowsStoreAppSaveCollection.dll">
+      <PackagePath>DLL Files\CSWindowsStoreAppSaveCollection.dll</PackagePath>
+      <Modified>2014-03-15T10:43:07.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\DLL Files\Mp3ToWav.dll">
+      <PackagePath>DLL Files\Mp3ToWav.dll</PackagePath>
+      <Modified>2014-03-15T10:43:07.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Font\Prime Light.otf">
+      <PackagePath>Assets\Font\Prime Light.otf</PackagePath>
+      <Modified>2014-03-15T10:43:07.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\Assets\Font\Prime Regular.otf">
+      <PackagePath>Assets\Font\Prime Regular.otf</PackagePath>
+      <Modified>2014-03-15T10:43:07.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-03-16T11:55:18.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\AboutUs.xbf">
+      <PackagePath>AboutUs.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\ExtendedSplash.xbf">
+      <PackagePath>ExtendedSplash.xbf</PackagePath>
+      <Modified>2014-03-16T11:55:18.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\FilterHelp.xbf">
+      <PackagePath>FilterHelp.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\Help.xbf">
+      <PackagePath>Help.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\MusicGallery.xbf">
+      <PackagePath>MusicGallery.xbf</PackagePath>
+      <Modified>2014-03-16T11:55:18.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\PlayingPage.xbf">
+      <PackagePath>PlayingPage.xbf</PackagePath>
+      <Modified>2014-03-16T11:55:18.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\SongDetails.xbf">
+      <PackagePath>SongDetails.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\SongItem.xbf">
+      <PackagePath>SongItem.xbf</PackagePath>
+      <Modified>2014-03-16T11:55:18.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\PrivacyPolicy.xbf">
+      <PackagePath>PrivacyPolicy.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\ThemeChanger.xbf">
+      <PackagePath>ThemeChanger.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\TrixterMode.xbf">
+      <PackagePath>TrixterMode.xbf</PackagePath>
+      <Modified>2014-03-16T16:04:39.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-03-15T10:43:10.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-16T15:38:29.735</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

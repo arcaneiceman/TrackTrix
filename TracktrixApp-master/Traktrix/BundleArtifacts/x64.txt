@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\bin\x64\Release\Traktrix_1.0.0.0_Bundle\Traktrix_1.0.0.0_x64.appx
+SymbolPackage=C:\Users\Mutahir\Desktop\TracktrixApp\Traktrix\AppPackages\Traktrix_1.0.0.0_Test\Traktrix_1.0.0.0_x64.appxsym

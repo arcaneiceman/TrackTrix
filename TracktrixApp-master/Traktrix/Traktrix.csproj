@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B39689AA-E023-4A69-BCDD-42889166FD60}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Traktrix</RootNamespace>
+    <AssemblyName>Traktrix</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Traktrix_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>46F13935321D05EF97A607FBC160491D1466009E</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.xaml.cs">
+      <DependentUpon>AboutUs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\AudioPlayer.cs" />
+    <Compile Include="Audio\AudioRender.cs" />
+    <Compile Include="Audio\GuitarTuner.cs" />
+    <Compile Include="Audio\MicrophoneRecorder.cs" />
+    <Compile Include="Audio\MyWavWriter.cs" />
+    <Compile Include="Audio\Common\BindableBase.cs" />
+    <Compile Include="Audio\Common\BooleanNegationConverter.cs" />
+    <Compile Include="Audio\Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Audio\Common\DelegateCommand.cs" />
+    <Compile Include="Audio\Common\HtmlRemoval.cs" />
+    <Compile Include="Audio\Common\ObjectSerializer.cs" />
+    <Compile Include="CoreAudio\Common\IAgileObject.cs" />
+    <Compile Include="CoreAudio\Common\WaveFormat.cs" />
+    <Compile Include="CoreAudio\Common\WaveFormatEncoding.cs" />
+    <Compile Include="CoreAudio\Common\WaveFormatExtensible.cs" />
+    <Compile Include="CoreAudio\Components\MMDevice\ActivateAudioInterfaceCompletionHandler.cs" />
+    <Compile Include="CoreAudio\Components\MMDevice\Constants.cs" />
+    <Compile Include="CoreAudio\Components\MMDevice\IActivateAudioInterfaceAsyncOperation.cs" />
+    <Compile Include="CoreAudio\Components\MMDevice\IActivateAudioInterfaceCompletionHandler.cs" />
+    <Compile Include="CoreAudio\Components\MMDevice\WindowsMultimediaDevice.cs" />
+    <Compile Include="CoreAudio\Components\WASAPI\AudioClientBufferFlags.cs" />
+    <Compile Include="CoreAudio\Components\WASAPI\Constants.cs" />
+    <Compile Include="CoreAudio\Components\WASAPI\IAudioCaptureClient.cs" />
+    <Compile Include="CoreAudio\Components\WASAPI\IAudioclient.cs" />
+    <Compile Include="CoreAudio\Constants\AudioClientStreamFlags.cs" />
+    <Compile Include="CoreAudio\Constants\KsMedia.cs" />
+    <Compile Include="CoreAudio\Enumerations\AudioClientShareMode.cs" />
+    <Compile Include="ExtendedSplash.xaml.cs">
+      <DependentUpon>ExtendedSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FilterHelp.xaml.cs">
+      <DependentUpon>FilterHelp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\BandPassFilter.cs" />
+    <Compile Include="Filters\BandStopFilter.cs" />
+    <Compile Include="Filters\BiQuadFilter.cs" />
+    <Compile Include="Filters\CenterCutFFTFilter.cs" />
+    <Compile Include="Filters\DSP.cs" />
+    <Compile Include="Filters\Filter.cs" />
+    <Compile Include="Filters\CenterChannelInversionFilter.cs" />
+    <Compile Include="Audio\PlayingStream.cs" />
+    <Compile Include="Filters\HighPassFilter.cs" />
+    <Compile Include="Filters\HighShelfFilter.cs" />
+    <Compile Include="Filters\LowPassFilter.cs" />
+    <Compile Include="Filters\LowShelfFilter.cs" />
+    <Compile Include="Filters\NotchFilter.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\Common\AudioSingleton.cs" />
+    <Compile Include="Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\Common\NavigationHelper.cs" />
+    <Compile Include="Audio\Common\ObservableDictionary.cs" />
+    <Compile Include="Audio\Common\RelayCommand.cs" />
+    <Compile Include="Audio\Common\SuspensionManager.cs" />
+    <Compile Include="MusicGallery.xaml.cs">
+      <DependentUpon>MusicGallery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayingPage.xaml.cs">
+      <DependentUpon>PlayingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Services\AudioBufferCapturedEventArgs.cs" />
+    <Compile Include="Services\AudioCaptureStream.cs" />
+    <Compile Include="Services\Interfaces\IAudioCaptureStream.cs" />
+    <Compile Include="Services\Interfaces\IWaveFileWriter.cs" />
+    <Compile Include="Services\WaveFileWriter.cs" />
+    <Compile Include="SongDetails.xaml.cs">
+      <DependentUpon>SongDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SongItem.xaml.cs">
+      <DependentUpon>SongItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.xaml.cs">
+      <DependentUpon>PrivacyPolicy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeChanger.xaml.cs">
+      <DependentUpon>ThemeChanger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrixterMode.xaml.cs">
+      <DependentUpon>TrixterMode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tuner\ComplexNumber.cs" />
+    <Compile Include="Tuner\FFT.cs" />
+    <Compile Include="Tuner\FrequencyTools.cs" />
+    <Compile Include="ViewModels\RecordViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\Background_Blue.png" />
+    <Content Include="Assets\Background_Empty.png" />
+    <Content Include="Assets\Background_Gray.png" />
+    <Content Include="Assets\Background_Green.png" />
+    <Content Include="Assets\Background_Orange.png" />
+    <Content Include="Assets\Background_Red.png" />
+    <Content Include="Assets\Background_Yellow.png" />
+    <Content Include="Assets\Font\luxisr.ttf" />
+    <Content Include="Assets\Font\Moire-Light.ttf" />
+    <Content Include="Assets\DefaultMusicLogo.jpg" />
+    <Content Include="Assets\Icons\DJ_Icon_Blue.png" />
+    <Content Include="Assets\Icons\DJ_Icon_Gray.png" />
+    <Content Include="Assets\Icons\DJ_Icon_Green.png" />
+    <Content Include="Assets\Icons\DJ_Icon_Orange.png" />
+    <Content Include="Assets\Icons\DJ_Icon_Red.png" />
+    <Content Include="Assets\Icons\DJ_Icon_Yellow.png" />
+    <Content Include="Assets\Icons\DownArrow.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Green.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Red.png" />
+    <Content Include="Assets\Icons\Forward_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Listen.png" />
+    <Content Include="Assets\Icons\Listen_Blue.png" />
+    <Content Include="Assets\Icons\Listen_Gray.png" />
+    <Content Include="Assets\Icons\Listen_Green.png" />
+    <Content Include="Assets\Icons\Listen_Orange.png" />
+    <Content Include="Assets\Icons\Listen_Red.png" />
+    <Content Include="Assets\Icons\Listen_Yellow.png" />
+    <Content Include="Assets\Icons\Mute_Normal.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Green.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Red.png" />
+    <Content Include="Assets\Icons\Mute_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\NotListen.png" />
+    <Content Include="Assets\Icons\NotListen_Blue.png" />
+    <Content Include="Assets\Icons\NotListen_Gray.png" />
+    <Content Include="Assets\Icons\NotListen_Green.png" />
+    <Content Include="Assets\Icons\NotListen_Orange.png" />
+    <Content Include="Assets\Icons\NotListen_Red.png" />
+    <Content Include="Assets\Icons\NotListen_Yellow.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal_Blue.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal_Green.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal_Orange.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal_Red.png" />
+    <Content Include="Assets\Icons\PauseIcon_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Green.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Red.png" />
+    <Content Include="Assets\Icons\Pause_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Blue.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Gray.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Green.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Orange.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Red.png" />
+    <Content Include="Assets\Icons\Pause_Pressed_Yellow.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Blue.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Gray.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Green.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Orange.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Red.png" />
+    <Content Include="Assets\Icons\PlayIcon_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Play_Icon.png" />
+    <Content Include="Assets\Icons\Play_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Play_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Play_Normal_Green.png" />
+    <Content Include="Assets\Icons\Play_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Play_Normal_Red.png" />
+    <Content Include="Assets\Icons\Play_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Blue.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Gray.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Green.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Orange.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Red.png" />
+    <Content Include="Assets\Icons\Play_Pressed_Yellow.png" />
+    <Content Include="Assets\Icons\Record_Enabled.png" />
+    <Content Include="Assets\Icons\Record_Normal.png" />
+    <Content Include="Assets\Icons\Record_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Record_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Record_Normal_Green.png" />
+    <Content Include="Assets\Icons\Record_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Record_Normal_Red.png" />
+    <Content Include="Assets\Icons\Record_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Repeat_Normal.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Green.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Red.png" />
+    <Content Include="Assets\Icons\Repeat_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Green.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Red.png" />
+    <Content Include="Assets\Icons\Rewind_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\save.png" />
+    <Content Include="Assets\Icons\save_Blue.png" />
+    <Content Include="Assets\Icons\save_Gray.png" />
+    <Content Include="Assets\Icons\save_Green.png" />
+    <Content Include="Assets\Icons\save_Orange.png" />
+    <Content Include="Assets\Icons\save_Red.png" />
+    <Content Include="Assets\Icons\save_Yellow.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Green.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Red.png" />
+    <Content Include="Assets\Icons\Shuffle_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Stop_Normal.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Green.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Red.png" />
+    <Content Include="Assets\Icons\Stop_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Volume0_Normal.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Green.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Red.png" />
+    <Content Include="Assets\Icons\Volume0_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Volume1_Normal.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Green.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Red.png" />
+    <Content Include="Assets\Icons\Volume1_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Volume2_Normal.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Green.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Red.png" />
+    <Content Include="Assets\Icons\Volume2_Normal_Yellow.png" />
+    <Content Include="Assets\Icons\Volume3_Normal.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Blue.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Gray.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Green.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Orange.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Red.png" />
+    <Content Include="Assets\Icons\Volume3_Normal_Yellow.png" />
+    <Content Include="Assets\Logo_Blue.jpg" />
+    <Content Include="Assets\Logo_Gray.jpg" />
+    <Content Include="Assets\Logo_Green.jpg" />
+    <Content Include="Assets\Logo_Orange.jpg" />
+    <Content Include="Assets\Logo_Red.jpg" />
+    <Content Include="Assets\Logo_Yellow.jpg" />
+    <Content Include="Assets\Wallpapers\Eight.jpg" />
+    <Content Include="Assets\Wallpapers\Five.jpg" />
+    <Content Include="Assets\Wallpapers\Four.jpg" />
+    <Content Include="Assets\Wallpapers\Nine.jpg" />
+    <Content Include="Assets\Wallpapers\One.jpg" />
+    <Content Include="Assets\Wallpapers\Seven.jpg" />
+    <Content Include="Assets\Wallpapers\Six.jpg" />
+    <Content Include="Assets\Wallpapers\Three.jpg" />
+    <Content Include="Assets\Wallpapers\Two.jpg" />
+    <Content Include="Audio\Common\ReadMe.txt" />
+    <Content Include="DLL Files\CSWindowsStoreAppSaveCollection.dll" />
+    <Content Include="Assets\Font\Prime Light.otf" />
+    <Content Include="Assets\Font\Prime Regular.otf" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="packages.config" />
+    <None Include="Traktrix_StoreKey.pfx" />
+    <None Include="Traktrix_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Icons\DJ_Icon.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Icons\Music_Icon.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="DLL Files\Mp3ToWav.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AboutUs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExtendedSplash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FilterHelp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MusicGallery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SongDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SongItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PrivacyPolicy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThemeChanger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrixterMode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CSWindowsStoreAppSaveCollection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL Files\CSWindowsStoreAppSaveCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="Mp3ToWav, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL Files\Mp3ToWav.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\packages\SharpDX.2.5.0\lib\win8\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XAudio2">
+      <HintPath>..\packages\SharpDX.XAudio2.2.5.0\lib\win8\SharpDX.XAudio2.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRtUtility">
+      <HintPath>..\packages\ObjectStorageHelper.5.0.0\lib\netcore45\WinRtUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRTXamlToolkit">
+      <HintPath>..\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="MSAdvertisingXaml, Version=8.1">
+      <Name>MSAdvertisingXaml</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
